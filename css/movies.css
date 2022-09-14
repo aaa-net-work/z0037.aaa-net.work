@@ -101,12 +101,17 @@ body{
   }
   
   .poster{
-
     width: 40%;
     height: 40%;
     padding: 1%;
-    
-  
+  }
+
+  .flex-container2 {  
+    display: flex;
+    width : 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
 
 
@@ -160,7 +165,7 @@ body{
         max-width: 500px;
     }
     .text{
-      width: 90%;
+      width: 50%;
       font-size: 18pt;
       color: white;    
       text-align: justify;
