@@ -1,0 +1,46 @@
+.container{
+  margin: 10px;
+  margin-top: 15%;
+  margin-block: 10%;
+  margin-left: 15%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.main_view{
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+
+}
+.main_view img{
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+
+  margin-top: 5%;
+    height: 600px;
+    width: auto;
+
+}
+.side_view{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 5%;
+  left: 10;
+
+  border: 3px solid #324813;
+}
+.side_view img{
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  cursor: pointer;
+  margin:0.5rem;
+}
+
+
+
